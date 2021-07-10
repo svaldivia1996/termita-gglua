@@ -1,0 +1,574 @@
+
+
+
+-----------------------------Date----------------------------------
+Date = "20200930"
+date = os.date("%Y%m%d")
+if date >= Date then
+print('â—Subscription time is over.â—\nâ—Ð’Ñ€ÐµÐ¼Ñ Ð¿Ð¾Ð´Ð¿Ð¸ÑÐºÐ¸ Ð¸ÑÑ‚ÐµÐºÐ»Ð¾. â—\n\nDiscord: bdm#0288\nTelegram: @Gdj0y')
+return
+end
+------------------------------Credit----------------------------------
+function Credit()
+gg.alert('User: Cuxk \nLicense expiration date: 30.09.2020 \nDiscord: bdm#0288\nTelegram: @Gdj0y')
+end
+------------------------Version Check----------------------------
+if gg.VERSION== "98.7"
+then
+else
+gg.alert('ðŸ“›Pls Use gg version BDMHackðŸ“›')
+print("ðŸ“›Pls Use gg version BDMHackðŸ“›\n\nDiscord: bdm#288\nTelegram: @Gdj0y")
+os.exit()
+end
+ï»¿-------------------------------------------------------------------------------
+--ðŸ“œðŸ“œðŸ“œðŸ“œðŸ“œðŸ“œðŸ“œ Menu ðŸ“œðŸ“œðŸ“œðŸ“œðŸ“œðŸ“œðŸ“œ--
+-------------------------------------------------------------------------------
+function ROS()
+ros = gg.choice({
+'âš¡Atack Speed',
+'ðŸ˜ŽGod Mode',
+'ðŸ’»LowPing and FastGraphic ',
+'ðŸ”Zoom',
+'âš™Credit',
+'ðŸšªExit'
+},Lasttl,'ðŸ‘‹Helloâ—ðŸŽ®Black Desert Mobile\nðŸ“Author: Gdj0y, Soma, Andreas.\n ðŸŽ­Company: elitepvpers\nðŸ”»ðŸ”»ðŸ”»ðŸ”»ðŸ”»ðŸ”»ðŸ”»ðŸ”»ðŸ”»')
+if ros == 1 then Menu1(A) end
+if ros == 2 then freezMob(fm) end
+if ros == 3 then Menu4(P) end
+if ros == 4 then Menu5(Z) end
+if ros == 5 then Credit() end
+if ros == 6 then Exit(X) end
+end
+
+-------------------------------------------------------------------------------
+--ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“• Freez mob ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“•--
+-------------------------------------------------------------------------------
+
+function freezMob(fm)
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("10000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("50000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("70000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("75000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("100000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("130000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("150000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("200000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("230000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("250000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("300000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("325000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("350000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("400000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("450000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("500000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("650000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("700000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("750000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("800000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â—Waitâ—")
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("1000000", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("â„Freezing mobs/boss - On âœ…")
+
+end
+
+-------------------------------------------------------------------------------
+--ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“• Menu 1 ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“•--
+------------------------------------------------------------------------------
+local number = {a1 = '1000000', a2 = '1000000', a3 = '1000000', t1 = '0.000001', t2 = '0.000001', t3 = '0.000001', z1 = '7.429999828338623', z2 = '7.429999828338623', z3 = '7.429999828338623'}
+
+function Menu1(A)
+bf4 = gg.prompt({'âš”Select: [0;100]'},{'0', number.a1},{'number'})
+if bf4 == nil then gg.setVisible(false) else
+if bf4[1] == nil then gg.setVisible(false)
+elseif bf4[1] == "0" then a = "1000000"
+elseif bf4[1] == "1" then a = "990000"
+elseif bf4[1] == "2" then a = "980000"
+elseif bf4[1] == "3" then a = "970000"
+elseif bf4[1] == "4" then a = "960000"
+elseif bf4[1] == "5" then a = "950000"
+elseif bf4[1] == "6" then a = "940000"
+elseif bf4[1] == "7" then a = "930000"
+elseif bf4[1] == "8" then a = "920000"
+elseif bf4[1] == "9" then a = "910000"
+elseif bf4[1] == "10" then a = "900000"
+elseif bf4[1] == "11" then a = "890000"
+elseif bf4[1] == "12" then a = "880000"
+elseif bf4[1] == "13" then a = "870000"
+elseif bf4[1] == "14" then a = "860000"
+elseif bf4[1] == "15" then a = "850000"
+elseif bf4[1] == "16" then a = "840000"
+elseif bf4[1] == "17" then a = "830000"
+elseif bf4[1] == "18" then a = "820000"
+elseif bf4[1] == "19" then a = "810000"
+elseif bf4[1] == "20" then a = "800000"
+elseif bf4[1] == "21" then a = "790000"
+elseif bf4[1] == "22" then a = "780000"
+elseif bf4[1] == "23" then a = "770000"
+elseif bf4[1] == "24" then a = "760000"
+elseif bf4[1] == "25" then a = "750000"
+elseif bf4[1] == "26" then a = "740000"
+elseif bf4[1] == "27" then a = "730000"
+elseif bf4[1] == "28" then a = "720000"
+elseif bf4[1] == "29" then a = "710000"
+elseif bf4[1] == "30" then a = "700000"
+elseif bf4[1] == "31" then a = "690000"
+elseif bf4[1] == "32" then a = "680000"
+elseif bf4[1] == "33" then a = "670000"
+elseif bf4[1] == "34" then a = "660000"
+elseif bf4[1] == "35" then a = "650000"
+elseif bf4[1] == "36" then a = "640000"
+elseif bf4[1] == "37" then a = "630000"
+elseif bf4[1] == "38" then a = "620000"
+elseif bf4[1] == "39" then a = "610000"
+elseif bf4[1] == "40" then a = "600000"
+elseif bf4[1] == "41" then a = "590000"
+elseif bf4[1] == "42" then a = "580000"
+elseif bf4[1] == "43" then a = "570000"
+elseif bf4[1] == "44" then a = "560000"
+elseif bf4[1] == "45" then a = "550000"
+elseif bf4[1] == "46" then a = "540000"
+elseif bf4[1] == "47" then a = "530000"
+elseif bf4[1] == "48" then a = "520000"
+elseif bf4[1] == "49" then a = "510000"
+elseif bf4[1] == "50" then a = "500000"
+elseif bf4[1] == "51" then a = "495000"
+elseif bf4[1] == "52" then a = "490000"
+elseif bf4[1] == "53" then a = "485000"
+elseif bf4[1] == "54" then a = "480000"
+elseif bf4[1] == "55" then a = "475000"
+elseif bf4[1] == "56" then a = "470000"
+elseif bf4[1] == "57" then a = "465000"
+elseif bf4[1] == "58" then a = "460000"
+elseif bf4[1] == "59" then a = "455000"
+elseif bf4[1] == "60" then a = "450000"
+elseif bf4[1] == "61" then a = "445000"
+elseif bf4[1] == "62" then a = "440000"
+elseif bf4[1] == "63" then a = "435000"
+elseif bf4[1] == "64" then a = "430000"
+elseif bf4[1] == "65" then a = "425000"
+elseif bf4[1] == "66" then a = "420000"
+elseif bf4[1] == "67" then a = "415000"
+elseif bf4[1] == "68" then a = "410000"
+elseif bf4[1] == "69" then a = "405000"
+elseif bf4[1] == "70" then a = "400000"
+elseif bf4[1] == "71" then a = "395000"
+elseif bf4[1] == "72" then a = "390000"
+elseif bf4[1] == "73" then a = "385000"
+elseif bf4[1] == "74" then a = "380000"
+elseif bf4[1] == "75" then a = "375000"
+elseif bf4[1] == "76" then a = "370000"
+elseif bf4[1] == "77" then a = "365000"
+elseif bf4[1] == "78" then a = "360000"
+elseif bf4[1] == "79" then a = "355000"
+elseif bf4[1] == "80" then a = "350000"
+elseif bf4[1] == "81" then a = "345000"
+elseif bf4[1] == "82" then a = "340000"
+elseif bf4[1] == "83" then a = "335000"
+elseif bf4[1] == "84" then a = "330000"
+elseif bf4[1] == "85" then a = "325000"
+elseif bf4[1] == "86" then a = "320000"
+elseif bf4[1] == "87" then a = "315000"
+elseif bf4[1] == "88" then a = "310000"
+elseif bf4[1] == "89" then a = "305000"
+elseif bf4[1] == "90" then a = "300000"
+elseif bf4[1] == "91" then a = "295000"
+elseif bf4[1] == "92" then a = "290000"
+elseif bf4[1] == "93" then a = "285000"
+elseif bf4[1] == "94" then a = "280000"
+elseif bf4[1] == "95" then a = "275000"
+elseif bf4[1] == "96" then a = "270000"
+elseif bf4[1] == "97" then a = "265000"
+elseif bf4[1] == "98" then a = "260000"
+elseif bf4[1] == "99" then a = "255000"
+elseif bf4[1] == "100" then a = "250000"
+end
+
+number.a1 = bf4[1]
+number.a3 = a
+
+gg.setRanges(gg.REGION_C_DATA | gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber(number.a2, gg.TYPE_FLOAT)
+gg.getResults(10)
+gg.editAll(number.a3, gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast('âš”AtackSpeed - âœ…')
+
+number.a2 = a
+end
+end
+
+
+-------------------------------------------------------------------------------
+--ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“• Menu 2 ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“•--
+-------------------------------------------------------------------------------
+function Menu2(T)
+ts2 = gg.prompt({'â³Select: [-10;20]'},{'0', number.s1},{'number'})
+if ts2 == nil then gg.setVisible(false) else
+if ts2[1] == nil then gg.setVisible(false)
+elseif ts2[1] == "-10" then s = "0.00000025"
+elseif ts2[1] == "-9" then s = "0.00000030"
+elseif ts2[1] == "-8" then s = "0.00000035"
+elseif ts2[1] == "-7" then s = "0.00000040"
+elseif ts2[1] == "-6" then s = "0.00000045"
+elseif ts2[1] == "-5" then s = "0.0000005"
+elseif ts2[1] == "-4" then s = "0.0000006"
+elseif ts2[1] == "-3" then s = "0.0000007"
+elseif ts2[1] == "-2" then s = "0.0000008"
+elseif ts2[1] == "-1" then s = "0.0000009"
+elseif ts2[1] == "0" then s = "0.000001"
+elseif ts2[1] == "1" then s = "0.00000105"
+elseif ts2[1] == "2" then s = "0.0000011"
+elseif ts2[1] == "3" then s = "0.00000115"
+elseif ts2[1] == "4" then s = "0.0000012"
+elseif ts2[1] == "5" then s = "0.0000014"
+elseif ts2[1] == "6" then s = "0.0000016"
+elseif ts2[1] == "7" then s = "0.0000017"
+elseif ts2[1] == "8" then s = "0.0000018"
+elseif ts2[1] == "9" then s = "0.0000019"
+elseif ts2[1] == "10" then s = "0.0000020"
+elseif ts2[1] == "11" then s = "0.0000021"
+elseif ts2[1] == "12" then s = "0.0000022"
+elseif ts2[1] == "13" then s = "0.0000023"
+elseif ts2[1] == "14" then s = "0.0000024"
+elseif ts2[1] == "15" then s = "0.0000025"
+elseif ts2[1] == "16" then s = "0.0000026"
+elseif ts2[1] == "17" then s = "0.0000027"
+elseif ts2[1] == "18" then s = "0.0000028"
+elseif ts2[1] == "19" then s = "0.0000029"
+elseif ts2[1] == "20" then s = "0.0000030"
+
+end
+
+number.t1 = ts2[1]
+number.t3 = s
+
+gg.setRanges(gg.REGION_C_BSS | gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber(number.t2, gg.TYPE_FLOAT)
+gg.getResults(64)
+gg.editAll(number.t3, gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast('â³Time Speed - âœ…')
+
+number.t2 = s
+end
+end
+
+
+-------------------------------------------------------------------------------
+--ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“• Menu 4 ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“•--
+-------------------------------------------------------------------------------
+function Menu4(P)
+ros3 = gg.choice({
+'âœ…ON',
+'âŒOFF',
+'ðŸ‘ˆBack'
+},Lasttl,'ðŸŒLowPing and FastGraphicðŸŒ')
+if ros3== 1 then PingOn() end
+if ros3== 2 then PingOff() end
+if ros3== 3 then ROS() end
+end
+----------------------------------------------------------------------------
+--=============Non Ping==============--
+----------------------------------------------------------------------------
+function PingOn()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_DATA | gg.REGION_ANONYMOUS)
+gg.searchNumber("0.001", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("0.00007", gg.TYPE_FLOAT)
+gg.clearResults()
+
+gg.setVisible(false)
+gg.toast("Fast Graphic and LowPing - On âœ…")
+end
+
+function PingOff()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_DATA | gg.REGION_ANONYMOUS)
+gg.searchNumber("0.00007", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.getResultsCount()
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.setVisible(false)
+gg.editAll("0.001", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Fast Graphic and Low Ping - ðŸ“´OFF")
+end
+
+
+---------------------------------------------------------------------------
+--ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“• Menu 5 ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“•ðŸ“•--
+---------------------------------------------------------------------------
+
+function Menu5(Z)
+zm = gg.prompt({'ðŸ”ŽSelect: [0;10]'},{'0', number.z1},{'number'})
+if zm == nil then gg.setVisible(false) else
+if zm[1] == nil then gg.setVisible(false)
+elseif zm[1] == "0" then z = "7.429999828338623"
+elseif zm[1] == "1" then z = "8.43000030518"
+elseif zm[1] == "2" then z = "9.43000030518"
+elseif zm[1] == "3" then z = "10.43000030518"
+elseif zm[1] == "4" then z = "11.43000030518"
+elseif zm[1] == "5" then z = "12.43000030518"
+elseif zm[1] == "6" then z = "13.43000030518"
+elseif zm[1] == "7" then z = "14.43000030518"
+elseif zm[1] == "8" then z = "15.43000030518"
+elseif zm[1] == "9" then z = "16.43000030518"
+elseif zm[1] == "10" then z = "17.43000030518"
+end
+
+number.z1 = zm[1]
+number.z3 = z
+
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber(number.z2, gg.TYPE_FLOAT)
+gg.getResults(10)
+gg.editAll(number.z3, gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast('ðŸ”ŽZoom - âœ…')
+
+number.z2 = z
+end
+end
+
+-------------------------------------------------------------------------------
+--ðŸšªðŸšªðŸšªðŸšªðŸšªðŸšªðŸšª Exit ðŸšªðŸšªðŸšªðŸšªðŸšªðŸšªðŸšª--
+-------------------------------------------------------------------------------
+
+function Off()
+gg.toast("ðŸ“´OFF")
+end
+
+function Exit(X)
+gg.toast("ðŸ‘‹ðŸ‘‹ðŸ‘‹ðŸ‘‹ðŸ‘‹")
+print('ðŸ”˜Ð”Ð¾ ÑÐºÐ¾Ñ€Ð¾Ð³Ð¾ Ð²Ð¾Ð·Ð²Ñ€Ð°Ñ‰ÐµÐ½Ð¸Ñ!ðŸ‘‹\nðŸ”˜See you soon!ðŸ‘‹')
+print('ðŸ”˜Discord: bdm#0288\nðŸ”˜Telegram: @Gdj0y')
+os.exit()
+end
+-------------------------------------------------------------------------------
+--â–¶ï¸â–¶ï¸â–¶ï¸â–¶ï¸â–¶ï¸â–¶ï¸ Over â—€ï¸â—€ï¸â—€ï¸â—€ï¸â—€ï¸â—€ï¸â—€ï¸--
+-------------------------------------------------------------------------------
+
+while(true) do
+menuend = 0
+
+if gg.isVisible(true) then gg.setVisible(false)
+menuend = 1 end
+if menuend == 1 then ROS() end
+end
+-------------------------------------------------------------------------------
+--â– â–‚ â–ƒ â–„ â–… â–† â–‡ â–“ â–’ End â–’ â–“ â–‡ â–† â–… â–„ â–ƒ â–‚ â–--
+-------------------------------------------------------------------------------
