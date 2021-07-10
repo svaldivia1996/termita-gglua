@@ -4,7 +4,7 @@
 -----------------------------Date----------------------------------
 Date = "20200930"
 date = os.date("%Y%m%d")
-if date >= Date then
+if date <= Date then
 print('â—Subscription time is over.â—\nâ—Ð’Ñ€ÐµÐ¼Ñ Ð¿Ð¾Ð´Ð¿Ð¸ÑÐºÐ¸ Ð¸ÑÑ‚ÐµÐºÐ»Ð¾. â—\n\nDiscord: bdm#0288\nTelegram: @Gdj0y')
 return
 end
